@@ -26,6 +26,7 @@
     set mousemodel=extend               " enable mouse support
     set nocompatible                    " Vim doesn't need to be vi compatible
     set selectmode=mouse
+    set undodir=~/.vim/undo             " where to put undo files
     set undofile                        " persistent undo saved to .un~ files
     syntax on                           " highlighting = win
 
